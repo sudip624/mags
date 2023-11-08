@@ -113,4 +113,4 @@ imageArray = ([img,imgGray,imgBlur,imgCanny],
 imgStacked = utils.stackImages(imageArray,0.3)
 
 cv2.imshow("Stacked Image", imgStacked)
-cv2.waitKey(0)
+cv2.waitKey(0)                     
